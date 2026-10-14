@@ -1146,3 +1146,73 @@ msgstr ""
 msgctxt "#31615"
 msgid "Subtitle language"
 msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31616"
+msgid "JellyCon - In progress movies"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31617"
+msgid "JellyCon - Recently added movies"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31618"
+msgid "JellyCon - Random movies"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31619"
+msgid "JellyCon - Recommended movies"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31620"
+msgid "JellyCon - Next up"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31621"
+msgid "JellyCon - In progress episodes"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31622"
+msgid "JellyCon - Recently added episodes"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31623"
+msgid "JellyCon - Latest TV shows"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31624"
+msgid "JellyCon - Random TV shows"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31625"
+msgid "JellyCon"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31626"
+msgid "Recommended movies"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31627"
+msgid "Next up"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31628"
+msgid "In progress episodes"
+msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31629"
+msgid "Latest TV shows"
+msgstr ""

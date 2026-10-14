@@ -64,7 +64,7 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="5900"/>
 						</include>
-						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot1_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies]]">
+						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot1_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies] | $EXP[HasJellyConInMovies]]">
 							<param name="show_inprogress" value="Skin.HasSetting(movieslot1_show_inprogress) | !$EXP[HasMovieSlot1]" />
 							<param name="show_recent" value="Skin.HasSetting(movieslot1_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(movieslot1_show_unwatched)" />
@@ -72,9 +72,13 @@
 							<param name="show_genres" value="Skin.HasSetting(movieslot1_show_genres)" />
 							<param name="show_sets" value="Skin.HasSetting(movieslot1_show_sets)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(movieslot1_show_videoaddons)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(movieslot1_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(movieslot1_show_jcrecent)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(movieslot1_show_jcrandom)" />
+							<param name="show_jcrecommended" value="Skin.HasSetting(movieslot1_show_jcrecommended)" />
 							<param name="list_id" value="5100" />
 						</include>
-						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot2_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies]]">
+						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot2_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies] | $EXP[HasJellyConInMovies]]">
 							<param name="show_inprogress" value="Skin.HasSetting(movieslot2_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(movieslot2_show_recent) | !$EXP[HasMovieSlot2]" />
 							<param name="show_unwatched"  value="Skin.HasSetting(movieslot2_show_unwatched)" />
@@ -82,9 +86,13 @@
 							<param name="show_genres" value="Skin.HasSetting(movieslot2_show_genres)" />
 							<param name="show_sets" value="Skin.HasSetting(movieslot2_show_sets)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(movieslot2_show_videoaddons)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(movieslot2_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(movieslot2_show_jcrecent)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(movieslot2_show_jcrandom)" />
+							<param name="show_jcrecommended" value="Skin.HasSetting(movieslot2_show_jcrecommended)" />
 							<param name="list_id" value="5200" />
 						</include>
-						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot3_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies]]">
+						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot3_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies] | $EXP[HasJellyConInMovies]]">
 							<param name="show_inprogress" value="Skin.HasSetting(movieslot3_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(movieslot3_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(movieslot3_show_unwatched) | !$EXP[HasMovieSlot3]" />
@@ -92,9 +100,13 @@
 							<param name="show_genres" value="Skin.HasSetting(movieslot3_show_genres)" />
 							<param name="show_sets" value="Skin.HasSetting(movieslot3_show_sets)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(movieslot3_show_videoaddons)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(movieslot3_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(movieslot3_show_jcrecent)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(movieslot3_show_jcrandom)" />
+							<param name="show_jcrecommended" value="Skin.HasSetting(movieslot3_show_jcrecommended)" />
 							<param name="list_id" value="5300" />
 						</include>
-						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot4_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies]]">
+						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot4_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies] | $EXP[HasJellyConInMovies]]">
 							<param name="show_inprogress" value="Skin.HasSetting(movieslot4_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(movieslot4_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(movieslot4_show_unwatched)" />
@@ -102,9 +114,13 @@
 							<param name="show_genres" value="Skin.HasSetting(movieslot4_show_genres)" />
 							<param name="show_sets" value="Skin.HasSetting(movieslot4_show_sets)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(movieslot4_show_videoaddons)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(movieslot4_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(movieslot4_show_jcrecent)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(movieslot4_show_jcrandom)" />
+							<param name="show_jcrecommended" value="Skin.HasSetting(movieslot4_show_jcrecommended)" />
 							<param name="list_id" value="5400" />
 						</include>
-						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot5_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies]]">
+						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot5_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies] | $EXP[HasJellyConInMovies]]">
 							<param name="show_inprogress" value="Skin.HasSetting(movieslot5_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(movieslot5_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(movieslot5_show_unwatched)" />
@@ -112,9 +128,13 @@
 							<param name="show_genres" value="Skin.HasSetting(movieslot5_show_genres) | !$EXP[HasMovieSlot5]" />
 							<param name="show_sets" value="Skin.HasSetting(movieslot5_show_sets)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(movieslot5_show_videoaddons)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(movieslot5_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(movieslot5_show_jcrecent)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(movieslot5_show_jcrandom)" />
+							<param name="show_jcrecommended" value="Skin.HasSetting(movieslot5_show_jcrecommended)" />
 							<param name="list_id" value="5500" />
 						</include>
-						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot6_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies]]">
+						<include content="MovieSubMenuItem" condition="!Skin.HasSetting(movieslot6_show_none) + [Library.HasContent(movies) | $EXP[HasVideoAddonsInMovies] | $EXP[HasJellyConInMovies]]">
 							<param name="show_inprogress" value="Skin.HasSetting(movieslot6_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(movieslot6_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(movieslot6_show_unwatched)" />
@@ -122,10 +142,14 @@
 							<param name="show_genres" value="Skin.HasSetting(movieslot6_show_genres)" />
 							<param name="show_sets" value="Skin.HasSetting(movieslot6_show_sets) | !$EXP[HasMovieSlot6]" />
 							<param name="show_videoaddons" value="Skin.HasSetting(movieslot6_show_videoaddons)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(movieslot6_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(movieslot6_show_jcrecent)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(movieslot6_show_jcrandom)" />
+							<param name="show_jcrecommended" value="Skin.HasSetting(movieslot6_show_jcrecommended)" />
 							<param name="list_id" value="5600" />
 						</include>
 					</control>
-					<include content="ImageWidget" condition="!Library.HasContent(movies) + !Skin.HasSetting(movieaction_addons) + !$EXP[HasVideoAddonsInMovies]">
+					<include content="ImageWidget" condition="!Library.HasContent(movies) + !Skin.HasSetting(movieaction_addons) + !$EXP[HasVideoAddonsInMovies] + !Skin.HasSetting(movieaction_jellycon) + !$EXP[HasJellyConInMovies]">
 						<param name="text_label" value="$LOCALIZE[31104]" />
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
@@ -157,7 +181,7 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="6900"/>
 						</include>
-						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot1_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows]]">
+						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot1_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows] | $EXP[HasJellyConInTVShows]]">
 							<param name="show_inprogress" value="Skin.HasSetting(tvshowslot1_show_inprogress) | !$EXP[HasTVShowSlot1]" />
 							<param name="show_recent" value="Skin.HasSetting(tvshowslot1_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(tvshowslot1_show_unwatched)" />
@@ -166,9 +190,14 @@
 							<param name="show_genres" value="Skin.HasSetting(tvshowslot1_show_genres)" />
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot1_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot1_show_videoaddons)" />
+							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot1_show_jcnextup)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot1_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot1_show_jcrecent)" />
+							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot1_show_jclatest)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(tvshowslot1_show_jcrandom)" />
 							<param name="list_id" value="6100" />
 						</include>
-						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot2_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows]]">
+						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot2_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows] | $EXP[HasJellyConInTVShows]]">
 							<param name="show_inprogress" value="Skin.HasSetting(tvshowslot2_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(tvshowslot2_show_recent) | !$EXP[HasTVShowSlot2]" />
 							<param name="show_unwatched"  value="Skin.HasSetting(tvshowslot2_show_unwatched)" />
@@ -177,9 +206,14 @@
 							<param name="show_genres" value="Skin.HasSetting(tvshowslot2_show_genres)" />
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot2_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot2_show_videoaddons)" />
+							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot2_show_jcnextup)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot2_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot2_show_jcrecent)" />
+							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot2_show_jclatest)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(tvshowslot2_show_jcrandom)" />
 							<param name="list_id" value="6200" />
 						</include>
-						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot3_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows]]">
+						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot3_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows] | $EXP[HasJellyConInTVShows]]">
 							<param name="show_inprogress" value="Skin.HasSetting(tvshowslot3_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(tvshowslot3_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(tvshowslot3_show_unwatched) | !$EXP[HasTVShowSlot3]" />
@@ -188,9 +222,14 @@
 							<param name="show_genres" value="Skin.HasSetting(tvshowslot3_show_genres)" />
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot3_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot3_show_videoaddons)" />
+							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot3_show_jcnextup)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot3_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot3_show_jcrecent)" />
+							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot3_show_jclatest)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(tvshowslot3_show_jcrandom)" />
 							<param name="list_id" value="6300" />
 						</include>
-						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot4_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows]]">
+						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot4_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows] | $EXP[HasJellyConInTVShows]]">
 							<param name="show_inprogress" value="Skin.HasSetting(tvshowslot4_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(tvshowslot4_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(tvshowslot4_show_unwatched)" />
@@ -199,9 +238,14 @@
 							<param name="show_genres" value="Skin.HasSetting(tvshowslot4_show_genres)" />
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot4_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot4_show_videoaddons)" />
+							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot4_show_jcnextup)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot4_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot4_show_jcrecent)" />
+							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot4_show_jclatest)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(tvshowslot4_show_jcrandom)" />
 							<param name="list_id" value="6400" />
 						</include>
-						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot5_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows]]">
+						<include content="TVShowSubMenuItem" condition="!Skin.HasSetting(tvshowslot5_show_none) + [Library.HasContent(tvshows) | $EXP[HasVideoAddonsInTVShows] | $EXP[HasJellyConInTVShows]]">
 							<param name="show_inprogress" value="Skin.HasSetting(tvshowslot5_show_inprogress)" />
 							<param name="show_recent" value="Skin.HasSetting(tvshowslot5_show_recent)" />
 							<param name="show_unwatched"  value="Skin.HasSetting(tvshowslot5_show_unwatched)" />
@@ -210,10 +254,15 @@
 							<param name="show_genres" value="Skin.HasSetting(tvshowslot5_show_genres) | !$EXP[HasTVShowSlot5]" />
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot5_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot5_show_videoaddons)" />
+							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot5_show_jcnextup)" />
+							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot5_show_jcinprogress)" />
+							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot5_show_jcrecent)" />
+							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot5_show_jclatest)" />
+							<param name="show_jcrandom" value="Skin.HasSetting(tvshowslot5_show_jcrandom)" />
 							<param name="list_id" value="6500" />
 						</include>
 					</control>
-					<include content="ImageWidget" condition="!Library.HasContent(tvshows) + !Skin.HasSetting(tvshowaction_addons) + !$EXP[HasVideoAddonsInTVShows]">
+					<include content="ImageWidget" condition="!Library.HasContent(tvshows) + !Skin.HasSetting(tvshowaction_addons) + !$EXP[HasVideoAddonsInTVShows] + !Skin.HasSetting(tvshowaction_jellycon) + !$EXP[HasJellyConInTVShows]">
 						<param name="text_label" value="$LOCALIZE[31104]" />
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
