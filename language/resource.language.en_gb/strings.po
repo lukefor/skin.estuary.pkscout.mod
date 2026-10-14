@@ -1216,3 +1216,8 @@ msgstr ""
 msgctxt "#31629"
 msgid "Latest TV shows"
 msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31630"
+msgid "JellyCon - In progress TV shows"
+msgstr ""

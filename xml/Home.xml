@@ -191,6 +191,7 @@
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot1_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot1_show_videoaddons)" />
 							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot1_show_jcnextup)" />
+							<param name="show_jcinprogshows" value="Skin.HasSetting(tvshowslot1_show_jcinprogshows)" />
 							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot1_show_jcinprogress)" />
 							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot1_show_jcrecent)" />
 							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot1_show_jclatest)" />
@@ -207,6 +208,7 @@
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot2_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot2_show_videoaddons)" />
 							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot2_show_jcnextup)" />
+							<param name="show_jcinprogshows" value="Skin.HasSetting(tvshowslot2_show_jcinprogshows)" />
 							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot2_show_jcinprogress)" />
 							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot2_show_jcrecent)" />
 							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot2_show_jclatest)" />
@@ -223,6 +225,7 @@
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot3_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot3_show_videoaddons)" />
 							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot3_show_jcnextup)" />
+							<param name="show_jcinprogshows" value="Skin.HasSetting(tvshowslot3_show_jcinprogshows)" />
 							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot3_show_jcinprogress)" />
 							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot3_show_jcrecent)" />
 							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot3_show_jclatest)" />
@@ -239,6 +242,7 @@
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot4_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot4_show_videoaddons)" />
 							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot4_show_jcnextup)" />
+							<param name="show_jcinprogshows" value="Skin.HasSetting(tvshowslot4_show_jcinprogshows)" />
 							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot4_show_jcinprogress)" />
 							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot4_show_jcrecent)" />
 							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot4_show_jclatest)" />
@@ -255,6 +259,7 @@
 							<param name="show_studio" value="Skin.HasSetting(tvshowslot5_show_studio)" />
 							<param name="show_videoaddons" value="Skin.HasSetting(tvshowslot5_show_videoaddons)" />
 							<param name="show_jcnextup" value="Skin.HasSetting(tvshowslot5_show_jcnextup)" />
+							<param name="show_jcinprogshows" value="Skin.HasSetting(tvshowslot5_show_jcinprogshows)" />
 							<param name="show_jcinprogress" value="Skin.HasSetting(tvshowslot5_show_jcinprogress)" />
 							<param name="show_jcrecent" value="Skin.HasSetting(tvshowslot5_show_jcrecent)" />
 							<param name="show_jclatest" value="Skin.HasSetting(tvshowslot5_show_jclatest)" />
