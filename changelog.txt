@@ -1,3 +1,7 @@
+v.22.0.8.3
+TV guide always shows All channels and no longer shows the channel group row
+added channel logos next to the channel numbers in the TV guide
+
 v.22.0.8.2
 JellyCon Latest TV shows row now shows series (needs lukefor/jellycon 1.0.2.2 or later)
 
