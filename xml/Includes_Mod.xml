@@ -195,7 +195,8 @@
 			<label>$LOCALIZE[19020]</label>
 			<property name="menu_id">$NUMBER[12000]</property>
 			<onclick condition="Skin.HasSetting(tvaction_channels) | String.IsEmpty(Skin.String(skin_version))">ActivateWindow(TVChannels)</onclick>
-			<onclick condition="Skin.HasSetting(tvaction_guide)">ActivateWindow(TVGuide)</onclick>
+			<!-- open the guide on the All channels group (path of Kodi's local all-channels group, en_gb name) -->
+			<onclick condition="Skin.HasSetting(tvaction_guide)">ActivateWindow(TVGuide,pvr://channels/tv/All%20channels@-1/)</onclick>
 			<onclick condition="Skin.HasSetting(tvaction_recordings)">ActivateWindow(TVRecordings)</onclick>
 			<onclick condition="Skin.HasSetting(tvaction_timers)">ActivateWindow(TVTimers)</onclick>
 			<onclick condition="Skin.HasSetting(tvaction_rules)">ActivateWindow(TVTimerRules)</onclick>

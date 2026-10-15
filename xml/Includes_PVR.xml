@@ -664,8 +664,16 @@
 						<align>center</align>
 						<aligny>center</aligny>
 					</control>
+					<control type="image">
+						<left>92</left>
+						<top>4</top>
+						<width>80</width>
+						<height>50</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.ChannelLogo]</texture>
+					</control>
 					<control type="label" id="1">
-						<left>83</left>
+						<left>172</left>
 						<top>-2</top>
 						<height>60</height>
 						<font>font13</font>
@@ -686,8 +694,16 @@
 						<align>center</align>
 						<aligny>center</aligny>
 					</control>
+					<control type="image">
+						<left>92</left>
+						<top>4</top>
+						<width>80</width>
+						<height>50</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.ChannelLogo]</texture>
+					</control>
 					<control type="label" id="1">
-						<left>83</left>
+						<left>172</left>
 						<top>-2</top>
 						<height>60</height>
 						<font>font13</font>
