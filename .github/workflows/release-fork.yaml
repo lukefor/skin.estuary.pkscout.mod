@@ -1,0 +1,52 @@
+name: Release skin (fork)
+
+# Pushing a tag builds the skin zip and attaches it to that tag's GitHub
+# release, creating the release if needed. The tag must match the version
+# in addon.xml (an optional leading "v" is allowed).
+
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: ${{ github.repository != 'pkscout/skin.estuary.pkscout.mod' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check tag matches addon.xml version
+        run: |
+          VERSION="$(python3 -c "import xml.etree.ElementTree as E; print(E.parse('addon.xml').getroot().get('version'))")"
+          if [ "${GITHUB_REF_NAME#v}" != "$VERSION" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match addon.xml version $VERSION"
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
+      - name: Build skin zip
+        run: |
+          ADDON_ID="$(python3 -c "import xml.etree.ElementTree as E; print(E.parse('addon.xml').getroot().get('id'))")"
+          git archive --format=zip --prefix="$ADDON_ID/" -o "$ADDON_ID-$VERSION.zip" HEAD
+          echo "ZIP=$ADDON_ID-$VERSION.zip" >> "$GITHUB_ENV"
+
+      - name: Attach zip to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Release notes are the first changelog.txt entry
+          awk 'NR > 1 && /^$/ { exit } { print }' changelog.txt > notes.md
+
+          if ! gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release create "$GITHUB_REF_NAME" \
+              --repo "$GITHUB_REPOSITORY" \
+              --verify-tag \
+              --title "Estuary Mod (pkscout) $GITHUB_REF_NAME" \
+              --notes-file notes.md
+          fi
+          gh release upload "$GITHUB_REF_NAME" "$ZIP" --repo "$GITHUB_REPOSITORY" --clobber
