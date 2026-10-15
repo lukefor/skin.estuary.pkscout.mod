@@ -485,7 +485,7 @@
 				<param name="browse_mode" value="never"/>
 				<param name="list_id" value="$PARAM[list_id]"/>
 			</include>
-			<include condition="$PARAM[show_jclatest]" content="WidgetListEpisodes">
+			<include condition="$PARAM[show_jclatest]" content="WidgetListPoster">
 				<param name="content_path" value="plugin://plugin.video.jellycon?mode=WIDGET_CONTENT&amp;type=recent_tvshows&amp;reload=$INFO[Window(Home).Property(plugin.video.jellycon-jellycon_widget_reload)]"/>
 				<param name="widget_header" value="$LOCALIZE[31629]"/>
 				<param name="widget_target" value="videos"/>
