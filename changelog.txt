@@ -1,3 +1,10 @@
+v.21.0.10.1
+first release: pkscout's Estuary mod (21.0.10) merged onto avdvplus.Estuary 4.0.8 for Kodi 21
+added JellyCon widget options for Movies and TV Shows (in progress, recently added, random, recommended, next up, latest, in progress TV shows)
+added JellyCon as a Movies/TV Shows menu action
+TV guide always shows All channels without the channel group row, with channel logos next to the channel numbers
+added toggles for avdvplus's recently added channels rows in the TV and Radio home settings
+
 v4.0.5 (2026-04-17)
 - Add stream-select dialog rich layouts (audio/video/subtitle) from upstream
   Estuary K22 (xbmc/xbmc PR #25762). Dispatched via DialogSelect.xml when the
