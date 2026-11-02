@@ -115,7 +115,7 @@
 						<height>250</height>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
 						<fadetime>400</fadetime>
-						<texture>$INFO[ListItem.ChannelLogo]</texture>
+						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="group">
 						<visible>String.IsEmpty(ListItem.EpgEventIcon)</visible>

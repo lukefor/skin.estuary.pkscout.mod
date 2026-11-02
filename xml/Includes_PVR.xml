@@ -629,7 +629,7 @@
 						<width>80</width>
 						<height>50</height>
 						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.ChannelLogo]</texture>
+						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label" id="1">
 						<left>172</left>
@@ -659,7 +659,7 @@
 						<width>80</width>
 						<height>50</height>
 						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.ChannelLogo]</texture>
+						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label" id="1">
 						<left>172</left>

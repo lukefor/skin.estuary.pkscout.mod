@@ -1,3 +1,6 @@
+v.21.0.10.2
+fixed missing channel logos in the TV guide (ListItem.ChannelLogo only exists in Kodi 22; use ListItem.Icon)
+
 v.21.0.10.1
 first release: pkscout's Estuary mod (21.0.10) merged onto avdvplus.Estuary 4.0.8 for Kodi 21
 added JellyCon widget options for Movies and TV Shows (in progress, recently added, random, recommended, next up, latest, in progress TV shows)
