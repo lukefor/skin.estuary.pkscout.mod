@@ -18,6 +18,7 @@
 first release: pkscout's Estuary mod (21.0.10) merged onto avdvplus.Estuary 4.0.8 for Kodi 21
 added JellyCon widget options for Movies and TV Shows and JellyCon as a Movies/TV Shows menu action
 TV guide always shows All channels without the channel group row, with channel logos
+fixed the empty programme details panel in the TV guide and the missing Live label
 		</news>
 		<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65, built on avdvplus.Estuary.</summary>
 		<description lang="en_GB">avdvplus.Estuary with pkscout's mods, including the ability to customize the home screen and home screen widgets, plus JellyCon widgets and a simplified TV guide.</description>

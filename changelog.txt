@@ -4,6 +4,7 @@ added JellyCon widget options for Movies and TV Shows (in progress, recently add
 added JellyCon as a Movies/TV Shows menu action
 TV guide always shows All channels without the channel group row, with channel logos next to the channel numbers
 added toggles for avdvplus's recently added channels rows in the TV and Radio home settings
+fixed the empty programme details panel in the TV guide and the missing Live label
 
 v4.0.5 (2026-04-17)
 - Add stream-select dialog rich layouts (audio/video/subtitle) from upstream
